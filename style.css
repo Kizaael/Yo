@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    width: 100%;
+}
+.header,
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: rgb(0, 0, 0);
+}
+.logo {
+    
+    width: 150px;
+    
+}
+.lista-nav {
+    display: flex;
+    list-style-type: none;
+    gap: 5rem;
+    align-items: center;
+    
+}
+.lista-nav li {
+    text-align: center;
+}
+.lista-nav li a {
+    text-decoration: none;
+    color: rgb(255, 229, 191);
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.3s;
+    font-size: 18px;
+    
+}
+.lista-nav li:hover {
+    background-color: rgb(153, 116, 73);
+    box-shadow: 0 0 20px rgba(255, 7, 7, 1); /* Extiende la sombra fuera de la caja */
+    transition: background-color 0.3s;
+}
+.abrir,
+.cerrar {
+    display: none;
+    
+}
+.losLocos {
+    width: 80px;
+    height: 80px;    
+    justify-content: center; /* Centra horizontalmente, opcional */
+    align-items: center; /* Centra verticalmente, opcional */   
+    opacity: 1;
+    
+   
+
+}
+.nav {
+    padding-left: 10%;
+   
+}
+.pata {
+   
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+.redes-sociales {
+    width: 10%;
+    
+}
+
+.logo-footer {
+    
+    width: 200px;
+    height: 15%;
+}
+
+
+/*
+.hex-item {
+    width: 150px;
+    height: 130px;
+    background-color: #ccc;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+    */
+    header, footer {
+        opacity: 0,9; /* 50% de transparencia */
+    }
+.Alineense {
+    width: 15%;
+    
+}
+.utu-footer {
+    text-decoration: none;
+    color: rgb(255, 229, 191);
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.3s;
+    font-size: 18px;
+    text-align: center;
+
+}
+.utu-footer:hover {
+    background-color: rgb(153, 116, 73);
+    box-shadow: 0 0 20px rgba(255, 7, 7, 1); /* Extiende la sombra fuera de la caja */
+}
+.hexagono {
+    display: flex;
+    flex-direction: column;
+    width: 400px;  /* Aumenta el tamaño de la caja */
+    height: 400px; /* Aumenta el tamaño de la caja */
+    background-color: #3498db;
+    clip-path: polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%);
+    margin: 20px;
+    align-items: center;
+    box-sizing: border-box; /* Incluye el padding en el tamaño total de la caja */
+    text-align: center;
+    padding: 20px;
+    white-space: normal;
+    justify-content: space-around;
+    background-image: url(../imagenes/fondo-abstracto-diseno-geometrico-ilustracion-vector-tesselation-geometrico-superficie-coloreada-estilo-ventana-cristal-colores-resumen-color-borroso_1217-599.avif);
+    background-size: cover;
+    background-position: center;
+  }
+
+.hexagono h1 {
+    
+    padding: 40px;
+    font-size: 2.5em;
+  color: #e74c3c;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  transition: color 0.3s ease;
+}
+.hexagono h1:hover {
+    color: #00ff00;
+}
+.papayuda {
+    
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);  /* Crea dos columnas de igual tamaño */
+  grid-template-rows: repeat(2, 1fr);     /* Crea dos filas de igual tamaño */
+  gap: 20px;                              /* Espacio entre las cajas */
+  justify-items: center;
+
+}
+.Centralo-12354 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 10vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    text-shadow: 2px 5px #000;
+}
+.atentos-al-main {
+    background-image: url(../imagenes/616.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    opacity: 0.9; /* Ajusta el valor de opacidad aquí */
+    z-index: -1; /* Mantiene la capa detrás del contenido */
+}
+.vamos-a-ponerle-un-hover {
+    position: relative;
+    transition: .3s linear;
+    cursor: pointer;
+    font-size: 3vh;
+    border: none;
+}
+.vamos-a-ponerle-un-hover:hover {
+    background-color: yellowgreen;
+    box-shadow: 0 0 5px green, 0 0 10px green, 0 0 15px;
+}
+.fade-negrito {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, black, transparent);
+}
+.fade-negrito2 {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom, black, transparent);
+}
